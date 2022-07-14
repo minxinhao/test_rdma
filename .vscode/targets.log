@@ -1,0 +1,242 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jul 14 06:42:29 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+ 
+VSCODE_AGENT_FOLDER = /home/mxh/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/mxh/test_rdma
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"1d735750dbb1b9066c7513078396ba0f.zh-cn","_translationsConfigFile":"/home/mxh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/tcf.json","_cacheRoot":"/home/mxh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn","_resolvedLanguagePackCoreLocation":"/home/mxh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"/home/mxh/.vscode-server/data/clp/1d735750dbb1b9066c7513078396ba0f.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/mxh/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/node
+# environment
+MY_MFU_SOURCE_PATH = /home/dsb/mpifileutils
+ 
+# makefile
+MAKEFILE_LIST := 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/997/bus
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/mxh
+# environment
+SSH_CONNECTION = 192.168.0.1 35618 192.168.1.11 22
+# environment
+PATH = /home/mxh/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/remote-cli:/home/dsb/mfu/install/bin:/home/dsb/daos/install/bin/:/home/dsb/daos/install/include/sbin/:/home/dsb/mfu/install/bin:/home/dsb/daos/install/bin/:/home/dsb/daos/install/include/sbin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/997
+# environment
+CPATH = /home/dsb/daos/install/include/:/home/dsb/daos/install/include/:
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/997/vscode-ipc-c2904e6f-4c40-40d0-a53b-dbd9ab53c39f.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+MY_MFU_INSTALL_PATH = /home/dsb/mfu
+# environment
+PWD = /home/mxh/test_rdma
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/mxh
+# environment
+LD_LIBRARY_PATH = /home/dsb/mfu/install/lib64:/home/dsb/mfu/install/lib:/home/dsb/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = mxh
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# environment
+OMPI_MCA_btl_openib_if_include = ibp102s0:1,mlx4_0:1
+# environment
+XDG_SESSION_ID = 248
+# environment
+USER = mxh
+# makefile
+.DEFAULT_GOAL := 
+# environment
+MY_DAOS_INSTALL_PATH = /home/dsb/daos/install
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+ 
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.0.1 35618 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/mxh/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# environment
+DAOS_CONT = io500_cont
+# environment
+OMPI_MCA_btl_openib_allow_ib = 1
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MY_IO500_PATH = /home/dsb/io500
+# environment
+DAOS_POOL = Pool1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# environment
+MY_MFU_BUILD_PATH = /home/dsb/mpifileutils/build
+# environment
+LANG = C
+# environment
+MOTD_SHOWN = pam
+# variable set hash-table stats:
+# Load=77/1024=8%, Rehash=0, Collisions=11/99=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 64768, inode 4539115): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+ 
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 17 / storage = 168 B / avg = 9 B
+# current buf: size = 8162 B / used = 168 B / count = 17 / avg = 9 B
+
+# strcache performance: lookups = 20 / hit rate = 15%
+# hash-table stats:
+# Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
+# Finished Make data base on Thu Jul 14 06:42:29 2022
+
+ 

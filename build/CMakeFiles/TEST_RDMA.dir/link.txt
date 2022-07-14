@@ -1,0 +1,1 @@
+/usr/bin/g++-11  -g    CMakeFiles/TEST_RDMA.dir/main.cc.o CMakeFiles/TEST_RDMA.dir/rdma-socket.cc.o  -o TEST_RDMA   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib -libverbs -lpthread -lrdmacm -lpmem 

@@ -1,0 +1,3 @@
+/home/mxh/test_rdma/build/CMakeFiles/rebuild_cache.dir
+/home/mxh/test_rdma/build/CMakeFiles/edit_cache.dir
+/home/mxh/test_rdma/build/CMakeFiles/TEST_RDMA.dir
